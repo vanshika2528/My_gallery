@@ -1,14 +1,12 @@
 import mongoose from "mongoose";
+import dotenv from 'dotenv';
 
+dotenv.config();
 const connectToMongo = async () => {
-  const res = await mongoose.connect(
-    //"mongodb://localhost:27017/gallery_app"
-    "mongodb+srv://<username>:<password>@cluster0.o3cxspq.mongodb.net/"
-  );
+  const res = await mongoose.connect(process.env.MONGODB_URI);
   if (res) {
-    console.log("Connected Succesffuly");
+    console.log("Connected Successfully");
   }
 };
 
 export default connectToMongo;
-//mongodb+srv://vdhipatel77:vidhi2525@cluster0.o3cxspq.mongodb.net/
