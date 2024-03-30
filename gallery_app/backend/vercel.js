@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "rewrites": [
+    "builds": [
       { "src": "./index.js", "use": "@vercel/node" }
     ],
         "routes":[
@@ -8,8 +8,5 @@
             "src":"/(.*)",
             "dest":"/"
         }
-        ],
-    "env": {
-      "MONGODB_URI": "@mongodb_uri"
-    }
+        ]
   }
