@@ -9,7 +9,7 @@ This is a simple and responsive **image gallery web application**. I cloned this
 ## 🔗 Live Demo
 
 Deployed using [Vercel](https://vercel.com/) 🚀  
-👉 [View Live Project](my-gallary-bice.vercel.app/)  
+👉 [View Live Project](https://my-gallary-bice.vercel.app/)
 
 ---
 
